@@ -1,0 +1,32 @@
+version: "3.9"
+services:
+  api-gateway:
+    build: ./services/api-gateway
+    ports:
+      - "8080:8080"
+    env_file: ./services/api-gateway/.env
+    depends_on:
+      - llm-service
+      - github-service
+      - credits-service
+      - notification-service
+
+  llm-service:
+    build: ./services/llm-service
+    ports:
+      - "5001:5001"
+
+  github-service:
+    build: ./services/github-service
+    ports:
+      - "5002:5002"
+
+  credits-service:
+    build: ./services/credits-service
+    ports:
+      - "5003:5003"
+
+  notification-service:
+    build: ./services/notification-service
+    ports:
+      - "5004:5004"
