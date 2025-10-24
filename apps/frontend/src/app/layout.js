@@ -16,7 +16,8 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Slofy",
-  description: "AI-powered code review dashboard",
+  description: "AI-powered code review",
+  icons: "/logo.png",
 };
 
 export default function RootLayout({ children }) {
