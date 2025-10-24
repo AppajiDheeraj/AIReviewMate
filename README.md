@@ -18,7 +18,8 @@
 ---
 ## 🎥 Live Demo
 
-[![Watch the Supademo](assets/demo-thumbnail.png)](https://app.supademo.com/embed/cmh3swe4h19zccdwpfebr82mb)
+[![Watch the Supademo](assets/Screenshot%202025-10-24%20191403.png)](https://app.supademo.com/embed/cmh3swe4h19zccdwpfebr82mb)
+
 
 ---
 
@@ -349,6 +350,7 @@ This project is licensed under the **MIT License**.
 ---
 
 ⭐ **If you find this project helpful, consider giving it a star!**
+
 
 
 
